@@ -1,0 +1,41 @@
+Create the project folder and subfolders (css, js, php)
+
+Configure the database connection in a central configuration file
+
+Design the user interface
+
+Create an HTML page containing motor sliders, buttons, and the table
+
+Link the HTML page to the CSS file for styling and the JS file for interactivity
+
+Create the database
+
+Create a new MySQL database
+
+Design the “poses” table with columns for each motor’s position and a status field
+
+Develop the PHP scripts
+
+Script to retrieve the next run-ready pose (get_run_pose.php)
+
+Script to update a pose’s status after execution (update_status.php)
+
+Script to save a new pose
+
+Script to fetch and list all poses
+
+Connect the frontend to the backend via JavaScript
+
+Use AJAX to fetch, save, and update poses without reloading the page
+
+Handle server responses and update slider values and the poses table
+
+Test all functionalities end-to-end
+
+Test the Reset button to restore default values
+
+Test the Save Pose button and confirm it’s added to the table
+
+Test the Run button to load the first active pose, execute it, then disable it
+
+Test the Load and Remove buttons for each row in the table
